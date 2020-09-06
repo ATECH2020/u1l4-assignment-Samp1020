@@ -7,13 +7,24 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
+        int classA = scanner.nextInt();
+
+        int classB = scanner.nextInt();
+        
+        int classC = scanner.nextInt();
         
 
         /*
          *  your code goes here
          */
 
+        int inClassA = classA / 2;
+        int inClassB = classB / 2;
+        int inClassC = classC / 2;
 
+        int totalStuDesks =  inClassA + inClassB + inClassC ;
+
+        System.out.print(totalStuDesks); 
         // closing the scanner object
         scanner.close();
     }
