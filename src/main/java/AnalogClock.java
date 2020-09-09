@@ -16,8 +16,9 @@ class AnalogClock {
         int hours = hHand / 30;
         int dPast = hours * 30;
         int mPast = hHand - dPast;//gets left over min
-        
-        int mHandDg = (30 - mPast) * 6;
+
+        int mHandDg = mPast * 2;
+        mHandDg = mHandDg * 6;
 
         System.out.print(mHandDg);
         // closing the scanner object
