@@ -13,9 +13,9 @@ class StudentDesks {
         
         int classC = scanner.nextInt();
 
-        int inClassA = classA / 2;
-        int inClassB = classB / 2;
-        int inClassC = classC / 2;
+        int inClassA = classA / 2 + classA % 2;
+        int inClassB = classB / 2 + classB % 2;
+        int inClassC = classC / 2 + classC % 2;
 
         int totalStuDesks =  inClassA + inClassB + inClassC ;
 
