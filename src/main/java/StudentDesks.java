@@ -12,11 +12,6 @@ class StudentDesks {
         int classB = scanner.nextInt();
         
         int classC = scanner.nextInt();
-        
-
-        /*
-         *  your code goes here
-         */
 
         int inClassA = classA / 2;
         int inClassB = classB / 2;
